@@ -1,0 +1,21 @@
+
+*Make sure an internet connectivity in your system.
+*Make sure you have node runtime installed on your system
+*Download the code in your local machine
+*In the project path just run "npm install". This installs all dependencies.
+*Make sure the input file "sampleInput.txt" has the input data in the below mentioned format:
+Input Description
+You will be first given an integer N which represents the following N-number of lines of text. Each 
+line represents either a visitor entering or leaving a room: it starts with an integer, representing a visitor's unique identifier. Next on this line is another integer, representing the room index. Note that there are at most 100 rooms, starting at index 0, and at most 1,024 visitors, starting at index 0. Next is a single character, either 'I' (for "In") for this visitor entering the room, or 'O' (for "out") for the visitor leaving the room. Finally, at the end of this line, there is a time-stamp integer: it is an integer representing the minute the event occurred during the day. This integer will range from 0 to 1439 (inclusive). All of these elements are space-delimited.
+
+Sample Input 1
+
+4
+0 0 I 540
+1 0 I 540
+0 0 O 560
+1 0 O 560
+
+*Now you can run the program by "node main.js".
+*You will be shown with the results of analysed input data.
+
